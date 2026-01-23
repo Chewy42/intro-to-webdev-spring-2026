@@ -1,0 +1,12 @@
+#form-container {
+  background-color: blue;
+}
+
+.form-label {
+  color: white;
+}
+
+#form-welcome-message {
+  font-size: 24px;
+  font-weight: bold;
+}
