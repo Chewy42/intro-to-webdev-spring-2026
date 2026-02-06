@@ -11,3 +11,17 @@ h1 {
 #hidden-link {
   color: white;
 }
+
+#monster-img {
+  width: 300px;
+}
+
+#room-2-link {
+  position: relative;
+  right: 100px;
+  bottom: 100px;
+}
+
+#room-2-link-container {
+  transform: rotate(90deg);
+}
