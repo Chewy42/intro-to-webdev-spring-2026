@@ -23,8 +23,7 @@ h1 {
 
 #room-2-link {
   position: relative;
-  right: 100px;
-  bottom: 100px;
+  bottom: -90px;
 }
 
 #room-2-link-container {
@@ -40,7 +39,7 @@ h1 {
 }
 
 .navbar-links {
-  width: 200px;
+  width: 350px;
   text-align: center;
   margin: auto;
   display: flex;
@@ -51,6 +50,39 @@ h1 {
 .navbar-link {
   color: white;
   font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+#popup-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#popup-panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+
+#dashboard-container {
+  display: none;
+}
+
+#popup-container {
+  display: none;
+}
+
+#sign-out-button {
+  display: none;
 }

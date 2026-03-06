@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/escaperoom.css" />
+</head>
+
+<body>
+  <div class="navbar-container">
+    <div class="navbar-links">
+      <a class="navbar-link" href="../index.html">Home</a>
+      <a class="navbar-link" href="./og.html">OG Website</a>
+      <a class="navbar-link" href="./dashboard.html">Dashboard</a>
+    </div>
+  </div>
+
+  <div>
+    <button id="sign-in-button">Sign In</button>
+  </div>
+  <div>
+    <button id="sign-out-button">Sign Out</button>
+  </div>
+
+  <div id="popup-container">
+    <div id="popup-panel">
+      <form type="submit" id="popup-form">
+        <p>Username:</p>
+        <input type="text" placeholder="Enter your username..." value="" id="username-input" />
+        <p>Password:</p>
+        <input type="password" placeholder="Enter your password..." value="" id="password-input" />
+        <br />
+        <br />
+        <button id="popup-sign-in-button">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="dashboard-container">
+    <h1>Logged In. Welcome back Matthew.</h1>
+  </div>
+
+  <script src="../javascript/dashboard.js"></script>
+</body>
+
+</html>
