@@ -13,11 +13,11 @@ mode = "parallel"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "live-server --port=80 --no-browser --entry-file=index.html"
-waitForPort = 80
+args = "live-server --port=4242 --no-browser --entry-file=index.html"
+waitForPort = 4242
 
 [[ports]]
-localPort = 80
+localPort = 4242
 externalPort = 80
 
 [deployment]
